@@ -1,0 +1,43 @@
+https://syon.github.io/refills/rid/1496490/
+
+- example
+>$ npm install -g selenium-standalone@latest
+>$ selenium-standalone install
+
+- result
+C:\Users\0831\Downloads>npm install -g selenium-standalone@latest
+npm ERR! code ECONNREFUSED
+npm ERR! errno ECONNREFUSED
+npm ERR! FetchError: request to https://registry.npmjs.org/selenium-standalone failed, reason: connect ECONNREFUSED 104.16.19.35:443
+npm ERR!     at ClientRequest.req.on.err (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\node_modules\make-fetch-happen\node_modules\node-fetch-npm\src\index.js:68:14)
+npm ERR!     at emitOne (events.js:116:13)
+npm ERR!     at ClientRequest.emit (events.js:211:7)
+npm ERR!     at TLSSocket.socketErrorListener (_http_client.js:387:9)
+npm ERR!     at emitOne (events.js:116:13)
+npm ERR!     at TLSSocket.emit (events.js:211:7)
+npm ERR!     at emitErrorNT (internal/streams/destroy.js:64:8)
+npm ERR!     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+npm ERR!     at process._tickCallback (internal/process/next_tick.js:180:9)
+npm ERR!  { FetchError: request to https://registry.npmjs.org/selenium-standalone failed, reason: connect ECONNREFUSED 104.16.19.35:443
+npm ERR!     at ClientRequest.req.on.err (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\node_modules\make-fetch-happen\node_modules\node-fetch-npm\src\index.js:68:14)
+npm ERR!     at emitOne (events.js:116:13)
+npm ERR!     at ClientRequest.emit (events.js:211:7)
+npm ERR!     at TLSSocket.socketErrorListener (_http_client.js:387:9)
+npm ERR!     at emitOne (events.js:116:13)
+npm ERR!     at TLSSocket.emit (events.js:211:7)
+npm ERR!     at emitErrorNT (internal/streams/destroy.js:64:8)
+npm ERR!     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+npm ERR!     at process._tickCallback (internal/process/next_tick.js:180:9)
+npm ERR!   message: 'request to https://registry.npmjs.org/selenium-standalone failed, reason: connect ECONNREFUSED 104.16.19.35:443',
+npm ERR!   type: 'system',
+npm ERR!   errno: 'ECONNREFUSED',
+npm ERR!   code: 'ECONNREFUSED',
+npm ERR!   stack: 'FetchError: request to https://registry.npmjs.org/selenium-standalone failed, reason: connect ECONNREFUSED 104.16.19.35:443\n    at ClientRequest.req.on.err (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\pacote\\node_modules\\make-fetch-happen\\node_modules\\node-fetch-npm\\src\\index.js:68:14)\n    at emitOne (events.js:116:13)\n    at ClientRequest.emit (events.js:211:7)\n    at TLSSocket.socketErrorListener (_http_client.js:387:9)\n    at emitOne (events.js:116:13)\n    at TLSSocket.emit (events.js:211:7)\n    at emitErrorNT (internal/streams/destroy.js:64:8)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)' }
+npm ERR!
+npm ERR! If you are behind a proxy, please make sure that the
+npm ERR! 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\0831\AppData\Roaming\npm-cache\_logs\2018-07-30T01_24_57_471Z-debug.log
+
+
