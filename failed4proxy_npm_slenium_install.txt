@@ -5,7 +5,7 @@ https://syon.github.io/refills/rid/1496490/
 >$ selenium-standalone install
 
 - result
-C:\Users\0831\Downloads>npm install -g selenium-standalone@latest
+C:\Users\chino\Downloads>npm install -g selenium-standalone@latest
 npm ERR! code ECONNREFUSED
 npm ERR! errno ECONNREFUSED
 npm ERR! FetchError: request to https://registry.npmjs.org/selenium-standalone failed, reason: connect ECONNREFUSED 104.16.19.35:443
@@ -39,5 +39,3 @@ npm ERR! 'proxy' config is set properly.  See: 'npm help config'
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     C:\Users\0831\AppData\Roaming\npm-cache\_logs\2018-07-30T01_24_57_471Z-debug.log
-
-
